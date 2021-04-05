@@ -1,12 +1,9 @@
 class User {
   /**
-   * コンストラクタ
+   * constructor
    * @param {string} name
    */
   constructor(name) {
-    /**
-     * @type {string}
-     */
     this.name = name;
   }
 }

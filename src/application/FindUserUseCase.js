@@ -4,7 +4,7 @@
 
 class FindUserUseCase {
   /**
-   *
+   * constructor
    * @param {{
    *  userRepository: IUserRepository
    * }} arg

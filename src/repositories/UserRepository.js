@@ -2,12 +2,11 @@ const { User } = require("../domain/User");
 
 class UserRepository {
   /**
-   * 取得する
+   * find user
    * @param {number} id
-   * @returns {User} ユーザー
+   * @returns {User} User
    */
   find(id) {
-    // return "hello";
     return new User("taro");
   }
 }
