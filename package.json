@@ -1,0 +1,12 @@
+{
+  "name": "js-ts-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc -b jsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
